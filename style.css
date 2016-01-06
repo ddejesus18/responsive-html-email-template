@@ -1,0 +1,58 @@
+.email-background {
+  background-color: silver;
+  padding: 12px;
+}
+.pre-header {
+  max-width: 500px;
+  /* background and color same color but will show up on the snippet */
+  background-color: silver;
+  color: silver;
+    font-size: 8px;
+}
+.email-container {
+  max-width: 500px;
+  background-color: white;
+  font-family: sans-serif;
+  /*top and bottom are 0 px left and right are auto so it centers
+   the container b/c there is a defined width */
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 5px;
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+
+ p {
+   margin: 20px;
+   color: #666;
+   line-height: 1.5;
+}
+.call-to-action {
+    text-align: center;
+    margin: 20px;
+}
+.call-to-action a {
+  text-decoration: none;
+  /* in order to add some padding */
+  display: inline-block;
+  background: #42A5F5;
+  color: white;
+  padding: 10px;
+}
+.footer-content {
+  max-width: 500px;
+  font-family: sans-serif;
+  /*top and bottom are 0 px left and right are auto so it centers
+   the container b/c there is a defined width */
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+.footer-content a {
+    display: inline-block;
+    font-size: 10px;
+    margin: 20px 0;
+    white-space: pre;
+}

@@ -1,0 +1,82 @@
+<!--Gmail cuts the head off and important because a lot of mail client swill ignore style text -->
+<style media="screen">
+    .email-background {
+      background-color: silver;
+      padding: 12px;
+    }
+    .pre-header {
+      max-width: 500px;
+      /* background and color same color but will show up on the snippet */
+      background-color: silver;
+      color: silver;
+        font-size: 8px;
+    }
+    .email-container {
+      max-width: 500px;
+      background-color: white;
+      font-family: sans-serif;
+      /*top and bottom are 0 px left and right are auto so it centers
+       the container b/c there is a defined width */
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 5px;
+      text-align: center;
+    }
+    img {
+      width: 100%;
+    }
+
+     p {
+       margin: 20px;
+       color: #666;
+       line-height: 1.5;
+    }
+    .call-to-action {
+        text-align: center;
+        margin: 20px;
+    }
+    .call-to-action a {
+      text-decoration: none;
+      /* in order to add some padding */
+      display: inline-block;
+      background: #42A5F5;
+      color: white;
+      padding: 10px;
+    }
+    .footer-content {
+      max-width: 500px;
+      font-family: sans-serif;
+      /*top and bottom are 0 px left and right are auto so it centers
+       the container b/c there is a defined width */
+      margin: 0 auto;
+      overflow: hidden;
+      text-align: center;
+    }
+    .footer-content a {
+        display: inline-block;
+        font-size: 10px;
+        margin: 20px 0;
+        white-space: pre;
+    }
+    </style>
+    <!-- this is where all of the email html is going, in this email-background div -->
+    <div class="email-background" style="background-color: silver;padding: 12px;">
+
+      <!-- The small description next to the subject, it is a snippet -->
+      <div class="pre-header" style="max-width: 500px;background-color: silver;color: silver;font-size: 8px;">
+        This preheader is my small description.
+      </div>
+      <div class="email-container" style="max-width: 500px;background-color: white;font-family: sans-serif;margin: 0 auto;overflow: hidden;border-radius: 5px;text-align: center;">
+
+        <h1>Hi! HTML Email, take 1.</h1>
+
+        <img src="http://cdn.morguefile.com/imageData/public/files/s/Seemann/11/l/1415395877ghwfo.jpg" alt="colorful ballons in the sky" style="width: 100%;">
+        <p style="margin: 20px;color: #666;line-height: 1.5;">Let's see how this is going to pan out, I am really just rambling on. I could've probably used lorem for this.</p>
+<div class="call-to-action" style="text-align: center;margin: 20px;">
+        <a href="#" style="text-decoration: none;display: inline-block;background: #42A5F5;color: white;padding: 10px;">Lets Chat</a>
+      </div>
+      </div>
+      <div class="footer-content" style="max-width: 500px;font-family: sans-serif;margin: 0 auto;overflow: hidden;text-align: center;">
+        <a href="#" style="display: inline-block;font-size: 10px;margin: 20px 0;white-space: pre;">dianacodes.firebaseapp.com</a> | <a href="#" style="display: inline-block;font-size: 10px;margin: 20px 0;white-space: pre;">Unsubscribe</a>
+      </div>
+    </div>
